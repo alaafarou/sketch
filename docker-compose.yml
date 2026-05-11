@@ -1,0 +1,26 @@
+services:
+  sql_db:
+    image: postgres:latest
+    container_name: postgres_db
+    restart: always
+    ports:
+      - "5432:5432"
+    env_file:
+      - ./src/config/.env.dev
+    volumes:
+      - postgres_data:/var/lib/postgres
+
+  redis_cache:
+    image: redis:latest
+    container_name: redis_cache
+    restart: always
+    ports:
+      - "6379:6379"
+    env_file:
+      - ./src/config/.env.dev
+    volumes:
+      - redis_data:/data
+
+volumes:
+  postgres_data:
+  redis_data:

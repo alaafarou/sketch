@@ -1,0 +1,19 @@
+
+services:
+  web-app-dev:
+    build:
+      context: .
+      target: dev
+    container_name: FTS_TourGuide_Web_App_Dev
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./src/config/.env.dev
+    depends_on:
+      - sql_db
+      - redis_cache
+    volumes:
+      - ./src:/app/src:ro
+    command: npm run start:dev
+ 
+
