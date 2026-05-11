@@ -1,0 +1,19 @@
+{
+  "MUST_BE_STRING": "يجب أن يكون {property} نصاً",
+  "NOT_EMPTY": "{property} مطلوب",
+  "INVALID_EMAIL": "أدخل بريداً إلكترونياً صالحاً",
+  "PHONE_SA": "رقم الجوال السعودي بصيغة +9665XXXXXXXX",
+  "PASSWORD_REQUIRED": "كلمة المرور مطلوبة",
+  "EMAIL_REQUIRED": "البريد الإلكتروني مطلوب",
+  "PASSWORD_MATCH": "يجب أن يطابق كلمة المرور",
+  "MIN_LENGTH": "{property} يجب أن لا يقل عن {constraints.0} أحرف",
+  "MAX_LENGTH": "{property} يجب أن لا يتجاوز {constraints.0} حرفاً",
+  "INVALID_CITY": "اختر مدينة صالحة",
+  "COMMERCIAL_REG_REQUIRED": "رقم السجل التجاري مطلوب",
+  "TAX_NUMBER_REQUIRED": "الرقم الضريبي مطلوب",
+  "INVALID_STATUS": "قيمة الحالة غير صالحة",
+  "INVALID_SERVICE_TYPE": "اختر نوع خدمة صالحاً",
+  "BRAND": "اسم العلامة التجارية غير صالح",
+  "COMPANY_NAME": "اسم الشركة غير صالح",
+  "ADDRESS": "العنوان غير صالح"
+}

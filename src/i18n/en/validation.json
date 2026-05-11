@@ -1,0 +1,18 @@
+{
+  "MUST_BE_STRING": "{property} must be text (string)",
+  "NOT_EMPTY": "{property} is required",
+  "INVALID_EMAIL": "Enter a valid email address",
+  "PHONE_SA": "Saudi mobile must be E.164: +9665XXXXXXXX",
+  "PASSWORD_REQUIRED": "Password is required",
+  "PASSWORD_MATCH": "{property}  must match",
+  "MIN_LENGTH": "{property} must be at least {constraints.0} characters",
+  "MAX_LENGTH": "{property} must not exceed {constraints.0} characters",
+  "INVALID_CITY": "Select a valid city",
+  "COMMERCIAL_REG_REQUIRED": "Commercial registration number is required",
+  "TAX_NUMBER_REQUIRED": "Tax number is required",
+  "INVALID_STATUS": "Invalid status value",
+  "INVALID_SERVICE_TYPE": "Select a valid service type",
+  "BRAND": "Brand name is invalid",
+  "COMPANY_NAME": "Company name is invalid",
+  "ADDRESS": "Address is invalid"
+}

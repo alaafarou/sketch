@@ -1,0 +1,13 @@
+{
+  "HELLO": "Hello",
+  "AUTH_SERVICE": "Auth microservice",
+  "WELCOME": "Welcome to Petrolife",
+  "COMPANY_ALREADY_EXISTS": "A company with this email or phone number already exists.",
+  "SERVICE_PROVIDER_ALREADY_EXISTS": "A service provider with this email or phone number already exists.",
+  "INVALID_CREDENTIALS": "Invalid email or password.",
+  "LOGIN_OK": "Login  successfull.",
+  "SERVICE_PROVIDER_CREATION_FAILED": "Service provider creation failed.",
+  "COMPANY_CREATION_FAILED": "Company creation failed.",
+  "COMPANY_NOT_FOUND": "Company not found.",
+  "SIGNUP_OK":"Signup successfull "
+}
